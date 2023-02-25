@@ -38,6 +38,14 @@
         bindings = <&kp SPACE>, <&kp UNDERSCORE>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
     };
+    gresc: grave_escape {
+        compatible = "zmk,behavior-mod-morph";
+        label = "GRAVE_ESCAPE";
+        #binding-cells = <0>;
+        bindings = <&kp ESC>, <&kp GRAVE>;
+        mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+        keep-mods = <(MOD_LGUI|MOD_RGUI)>;
+    };
 
   };
 
@@ -48,7 +56,7 @@
             bindings = <
 &kp EQUAL     &kp N1            &kp N2    &kp N3     &kp N4  &kp N5                           &tog 1                                                                                          &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
    &gresc      &kp Q             &kp W     &kp E      &kp R   &kp T            &macro_spectacle_left                                                                                          &none   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
-  &kp TAB      &kp A             &kp S     &kp D      &kp F   &kp G           &macro_spectacle_right      &kp LEFT_ALT    &kp CAPS                   &kp RGUI  &kp RIGHT_ALT  &macro_spectacle_move   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
+  &kp TAB      &kp A             &kp S     &kp D      &kp F   &kp G           &macro_spectacle_right      &kp LEFT_ALT  &caps_word                   &kp RGUI  &kp RIGHT_ALT  &macro_spectacle_move   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
 &kp LSHFT      &kp Z             &kp X     &kp C      &kp V   &kp B                            &none             &none    &kp HOME   &none   &none  &kp PG_UP          &none                  &none   &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
     &mo 2  &kp GRAVE  &kp LEFT_CONTROL  &kp LEFT  &kp RIGHT                                 &kp BSPC          &kp LGUI     &kp END                  &kp PG_DN      &kp ENTER                 &spund          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
             >;
