@@ -44,6 +44,7 @@
         #binding-cells = <0>;
         bindings = <&kp ESC>, <&macro_shift_tab>;
         mods = <(MOD_LGUI|MOD_RGUI)>;
+        keep-mods = <(MOD_LGUI|MOD_RGUI)>;
     };
   };
 
