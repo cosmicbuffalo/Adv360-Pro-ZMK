@@ -2,19 +2,37 @@ macro_spectacle_down: macro_spectacle_down{
 compatible = "zmk,behavior-macro";
 label = "macro_spectacle_down";
 #binding-cells = <0>;
-bindings = <&kt LEFT_ALT>, <&kt LEFT_COMMAND>, <&kp DOWN>, <&kt LEFT_ALT>, <&kt LEFT_COMMAND>;
+bindings = <&macro_press &kp LEFT_ALT &kp LEFT_COMMAND>, <&macro_tap &kp DOWN>, <&macro_release &kp LEFT_ALT &kp LEFT_COMMAND>;
 };
 macro_spectacle_up: macro_spectacle_up{
 compatible = "zmk,behavior-macro";
 label = "macro_spectacle_up";
 #binding-cells = <0>;
-bindings = <&kt LEFT_ALT>, <&kt LEFT_COMMAND>, <&kp UP>, <&kt LEFT_ALT>, <&kt LEFT_COMMAND>;
+bindings = <&macro_press &kp LEFT_ALT &kp LEFT_COMMAND>, <&macro_tap &kp UP>, <&macro_release &kp LEFT_ALT &kp LEFT_COMMAND>;
+};
+macro_spectacle_left: macro_spectacle_left{
+compatible = "zmk,behavior-macro";
+label = "macro_spectacle_left";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LEFT_ALT &kp LEFT_COMMAND>, <&macro_tap &kp LEFT>, <&macro_release &kp LEFT_ALT &kp LEFT_COMMAND>;
+};
+macro_spectacle_right: macro_spectacle_right{
+compatible = "zmk,behavior-macro";
+label = "macro_spectacle_right";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LEFT_ALT &kp LEFT_COMMAND>, <&macro_tap &kp RIGHT>, <&macro_release &kp LEFT_ALT &kp LEFT_COMMAND>;
 };
 macro_spectacle_move: macro_spectacle_move{
 compatible = "zmk,behavior-macro";
 label = "macro_spectacle_move";
 #binding-cells = <0>;
-bindings = <&kt LEFT_COMMAND>, <&kt LEFT_CONTROL>, <&kt LEFT_ALT>, <&kp LEFT>, <&kt LEFT_COMMAND>, <&kt LEFT_CONTROL>, <&kt LEFT_ALT>;
+bindings = <&macro_press &kp LEFT_CONTROL &kp LEFT_ALT &kp LEFT_COMMAND>, <&macro_tap &kp LEFT>, <&macro_release &kp LEFT_CONTROL &kp LEFT_ALT &kp LEFT_COMMAND>;
+};
+macro_shift_tab: macro_shift_tab{
+  compatible = "zmk,behavior-macro";
+  label = "macro_shift_tab";
+  #binding-cells = <0>;
+  bindings = <&macro_press &kp LSHFT>, <&macro_tap &kp TAB>, <&macro_release &kp LSHFT>
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
