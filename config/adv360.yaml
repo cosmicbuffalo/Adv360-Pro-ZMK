@@ -1,3 +1,4 @@
+layout: {qmk_keyboard: ergodox_ez/base, qmk_layout: LAYOUT_ergodox_pretty}
 layers:
   default_layer: ['&macro_spcf', '1', '2', '3', '4', '5', layer_keypad, layer_mod, '6', '7', '8', '9', '0', '&macro_spcm', '&gresc', Q, W, E, R, T, '&macro_spcl',
     UP, Y, U, I, O, P, \, TAB, A, S, D, F, G, '&macro_spcr', LEFT ALT, '&caps_word', RGUI, RIGHT ALT, DOWN, H, J, K, L, ;, '''', LSHFT, Z, X, C, V, B, '', '', HOME,
