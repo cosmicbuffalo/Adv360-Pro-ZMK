@@ -1,0 +1,173 @@
+layers:
+  default_layer: ['&macro_spcf', '1', '2', '3', '4', '5', layer_keypad, layer_mod, '6', '7', '8', '9', '0', '&macro_spcm', '&gresc', Q, W, E, R, T, '&macro_spcl',
+    UP, Y, U, I, O, P, \, TAB, A, S, D, F, G, '&macro_spcr', LEFT ALT, '&caps_word', RGUI, RIGHT ALT, DOWN, H, J, K, L, ;, '''', LSHFT, Z, X, C, V, B, '', '', HOME,
+    '', '', PG UP, '', '', N, M, ',', ., /, RSHFT, layer_fn, '`', LEFT CONTROL, LEFT, RIGHT, BSPC, LGUI, END, PG DN, ENTER, '&spund', '=', '-', '[', ']', layer_fn]
+  layer_keypad: ['=', '1', '2', '3', '4', '5', '', layer_mod, '6', KP NUM, KP EQUAL, KP DIVIDE, KP MULTIPLY, '-', ESC, Q, W, E, R, T, '', '', Y, KP 7, KP 8, KP 9,
+    KP MINUS, \, TAB, A, S, D, F, G, '', LCTRL, LALT, LGUI, RCTRL, '', H, KP 4, KP 5, KP 6, KP PLUS, '''', LSHFT, Z, X, C, V, B, '', '', HOME, '', '', PG UP, '',
+    '', N, KP 1, KP 2, KP 3, KP ENTER, RSHFT, layer_fn, '`', CAPS, LEFT, RIGHT, BSPC, DEL, END, PG DN, ENTER, KP 0, UP, DOWN, KP DOT, ']', layer_fn]
+  layer_fn:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - layer_keypad
+  - layer_mod
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  layer_mod:
+  - ''
+  - BT 0
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - ''
+  - {type: held}
+  - BT 0
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&bootloader'
+  - '&bootloader'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - RGB MEFS CMD 5
+  - BT CLR
+  - ''
+  - BT CLR
+  - BT CLR
+  - RGB MEFS CMD 5
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&bl BL_INC'
+  - '&bl BL_DEC'
+  - RGB TOG
+  - '&bl BL_TOG'
+  - ''
+  - ''
+  - '&bl BL_TOG'
+  - RGB TOG
+  - '&bl BL_INC'
+  - '&bl BL_DEC'
+  - ''
+  - ''
+  - ''

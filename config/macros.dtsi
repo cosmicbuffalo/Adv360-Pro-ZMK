@@ -1,36 +1,36 @@
-macro_spectacle_down: macro_spectacle_down{
+macro_spcdn: macro_spcdn{
 compatible = "zmk,behavior-macro";
-label = "macro_spectacle_down";
+label = "macro_spcdn";
 #binding-cells = <0>;
 bindings = <&macro_press &kp LEFT_ALT &kp LEFT_COMMAND>, <&macro_tap &kp DOWN>, <&macro_release &kp LEFT_ALT &kp LEFT_COMMAND>;
 };
-macro_spectacle_up: macro_spectacle_up{
+macro_spcup: macro_spcup{
 compatible = "zmk,behavior-macro";
-label = "macro_spectacle_up";
+label = "macro_spcup";
 #binding-cells = <0>;
 bindings = <&macro_press &kp LEFT_ALT &kp LEFT_COMMAND>, <&macro_tap &kp UP>, <&macro_release &kp LEFT_ALT &kp LEFT_COMMAND>;
 };
-macro_spectacle_left: macro_spectacle_left{
+macro_spcl: macro_spcl{
 compatible = "zmk,behavior-macro";
-label = "macro_spectacle_left";
+label = "macro_spcl";
 #binding-cells = <0>;
 bindings = <&macro_press &kp LEFT_ALT &kp LEFT_COMMAND>, <&macro_tap &kp LEFT>, <&macro_release &kp LEFT_ALT &kp LEFT_COMMAND>;
 };
-macro_spectacle_right: macro_spectacle_right{
+macro_spcr: macro_spcr{
 compatible = "zmk,behavior-macro";
-label = "macro_spectacle_right";
+label = "macro_spcr";
 #binding-cells = <0>;
 bindings = <&macro_press &kp LEFT_ALT &kp LEFT_COMMAND>, <&macro_tap &kp RIGHT>, <&macro_release &kp LEFT_ALT &kp LEFT_COMMAND>;
 };
-macro_spectacle_fullscreen: macro_spectacle_fullscreen{
+macro_spcf: macro_spcf{
 compatible = "zmk,behavior-macro";
-label = "macro_spectacle_fullscreen";
+label = "macro_spcf";
 #binding-cells = <0>;
 bindings = <&macro_press &kp LEFT_ALT &kp LEFT_COMMAND>, <&macro_tap &kp F>, <&macro_release &kp LEFT_ALT &kp LEFT_COMMAND>;
 };
-macro_spectacle_move: macro_spectacle_move{
+macro_spcm: macro_spcm{
 compatible = "zmk,behavior-macro";
-label = "macro_spectacle_move";
+label = "macro_spcm";
 #binding-cells = <0>;
 bindings = <&macro_press &kp LEFT_CONTROL &kp LEFT_ALT &kp LEFT_COMMAND>, <&macro_tap &kp LEFT>, <&macro_release &kp LEFT_CONTROL &kp LEFT_ALT &kp LEFT_COMMAND>;
 };

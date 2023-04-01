@@ -44,3 +44,35 @@ Follow the programming instruction on page 8 of the [Quick Start Guide](https://
 Further support resources can be found on Kinesis.com
 https://kinesis-ergo.com/support/kb360pro/#firmware-updates
 https://kinesis-ergo.com/support/kb360pro/#manuals
+
+
+## Generate Keymap SVG
+
+
+
+
+1. install [`pipx`](https://pypa.github.io/pipx/)
+```
+brew install pipx
+pipx ensurepath
+```
+
+2. install [`keymap-drawer`](https://github.com/caksoylar/keymap-drawer)
+```
+pipx install keymap-drawer
+keymap --help
+```
+
+3. parse `.keymap` file to yaml
+```
+ keymap parse -z config/adv360.keymap > config/adv360.yaml
+```
+
+4. draw `.svg` using parsed keymap yaml + QMK layout format info.json
+```
+keymap draw -j config/info.json config/adv360.yaml > adv360.svg
+```
+
+Repeat steps 3-4 after every modification to `config/adv360.keymap` to keep the `adv360.svg` up to date
+
+#### TODO - automate this process
